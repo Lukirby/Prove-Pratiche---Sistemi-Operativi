@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
             int status;
             int wait_pid = wait(&status);
             end = time(NULL);
-            if(end - start < 1){
+            if(end - start < 1){    
                 printf("Process took less than 1 seconds\n");
                 exit(1);
             }
