@@ -1,0 +1,1 @@
+echo Sono il file G.bash
