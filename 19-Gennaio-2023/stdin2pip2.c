@@ -6,7 +6,7 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
-#define MAX 1024
+#define MAX 4096
 
 int arg_count(char *buffer) {
     int arg_count = 0;
@@ -37,19 +37,23 @@ int main (int argc, char *argv[]) {
         strcat(buffer2, buffer);
     }
 
-    buffer2[strlen(buffer2)] = '\0';  // Null-terminate the string
+    int ac = arg_count(buffer2);
+
+    char *cmd= malloc(MAX * ac * sizeof(char));
+
+    char *t = malloc(MAX * sizeof(char));
 
     char* token = strtok(buffer2, "\n");
-        char *cmd= malloc((strlen(token) + 1) * sizeof(char));
-        strcpy(cmd, token);
+    while(token != NULL){
+        strcpy(t, token);
+        strcat(cmd, t);
         token = strtok(NULL, "\n");
-        char *cmd2= malloc((strlen(token) + 1) * sizeof(char));
-        strcpy(cmd2, token);
-    
-        strcat(cmd, " | ");
-        strcat(cmd, cmd2);
+        if(token != NULL){
+            strcat(cmd, " | ");
+        }
+    }
 
-
+    printf("%s\n", cmd);
 
     int fd = open("file.bash", O_CREAT | O_RDWR , S_IRWXU|S_IRWXG|S_IRWXO);
     if (fd == -1) {
