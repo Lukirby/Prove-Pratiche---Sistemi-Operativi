@@ -3,7 +3,18 @@ C:
 directory strem:
 24-Maggio-2024
 
+symbolic link:
+18-Gennaio-2021
+
+
+
 Bash script:
 
 symbolic link:
 24-Maggio-2024
+
+sort:
+18-Gennaio-2021
+
+pattern matching:
+18-Gennaio-2021
