@@ -6,6 +6,7 @@ exec programs:
 directory strem:
 14-Febbraio-2024
 24-Maggio-2024
+14-Settembre-2024
 
 symbolic link:
 18-Gennaio-2021
@@ -13,12 +14,16 @@ symbolic link:
 find elf and other files:
 14-Febbraio-2024
 
+string manipulation:
+14-Settembre-2024
+
 --------------------------------------------
 
 Bash script:
 
 symbolic link:
 24-Maggio-2024
+14-Settembre-2024
 
 sort:
 18-Gennaio-2021
@@ -31,3 +36,4 @@ associative array:
 
 catalog:
 14-Febbraio-2024
+14-Settembre-2024
