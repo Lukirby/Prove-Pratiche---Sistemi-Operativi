@@ -2,6 +2,7 @@ C:
 
 exec programs:
 14-Febbraio-2024
+18-Settembre-2019
 
 directory strem:
 14-Febbraio-2024
@@ -16,6 +17,10 @@ find elf and other files:
 
 string manipulation:
 14-Settembre-2024
+18-Settembre-2019
+
+parallel processing:
+18-Settembre-2019
 
 --------------------------------------------
 
@@ -24,6 +29,7 @@ Bash script:
 symbolic link:
 24-Maggio-2024
 14-Settembre-2024
+18-Settembre-2019 (hard)
 
 sort:
 18-Gennaio-2021
@@ -33,7 +39,9 @@ pattern matching:
 
 associative array:
 14-Febbraio-2024
+18-Settembre-2019
 
 catalog:
 14-Febbraio-2024
 14-Settembre-2024
+18-Settembre-2019
