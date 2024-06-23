@@ -1,12 +1,19 @@
 C:
 
+exec programs:
+14-Febbraio-2024
+
 directory strem:
+14-Febbraio-2024
 24-Maggio-2024
 
 symbolic link:
 18-Gennaio-2021
 
+find elf and other files:
+14-Febbraio-2024
 
+--------------------------------------------
 
 Bash script:
 
@@ -18,3 +25,9 @@ sort:
 
 pattern matching:
 18-Gennaio-2021
+
+associative array:
+14-Febbraio-2024
+
+catalog:
+14-Febbraio-2024
