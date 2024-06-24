@@ -3,11 +3,14 @@ C:
 exec programs:
 14-Febbraio-2024
 18-Settembre-2019
+07-Settembre-2022
 
 directory strem:
 14-Febbraio-2024
 24-Maggio-2024
 14-Settembre-2024
+22-Luglio-2022
+24-Maggio-2023
 
 symbolic link:
 18-Gennaio-2021
@@ -21,6 +24,32 @@ string manipulation:
 
 parallel processing:
 18-Settembre-2019
+07-Settembre-2022
+
+option arguments:
+16-Febbraio-2023
+
+file dimension:
+16-Febbraio-2023
+
+pipe and fifo:
+19-Gennaio-2023
+19-Gennaio-2024
+23-Gennaio-2023
+
+tokenizer:
+19-Gennaio-2023
+
+signal and sigction:
+23-Gennaio-2023
+22-Giugno-2022
+
+find processes:
+24-Maggio-2023
+
+Timer Management:
+14-Giugno-2023
+
 
 --------------------------------------------
 
@@ -29,19 +58,44 @@ Bash script:
 symbolic link:
 24-Maggio-2024
 14-Settembre-2024
-18-Settembre-2019 (hard)
+18-Settembre-2019 (hard-link)
+24-Maggio-2023
+14-Giugno-2023
 
 sort:
 18-Gennaio-2021
 
 pattern matching:
 18-Gennaio-2021
+07-Settembre-2022
 
 associative array:
 14-Febbraio-2024
 18-Settembre-2019
+24-Maggio-2023
 
 catalog:
 14-Febbraio-2024
 14-Settembre-2024
 18-Settembre-2019
+22-Giugno-2022
+
+find formatting:
+22-Giugno-2022
+
+byte counting:
+07-Settembre-2022
+
+line counting:
+16-Febbraio-2023
+
+merge file and directory:
+19-Gennaio-2023
+19-Gennaio-2024
+23-Gennaio-2023
+
+exec:
+22-Luglio-2022
+
+relative and absolute paths:
+14-Giugno-2023
